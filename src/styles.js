@@ -1,16 +1,12 @@
 import styled, { createGlobalStyle } from "styled-components";
 import { animated } from "react-spring";
 
-import Tomato from "./AsfaltMigle-WideRegular-edit.otf";
 import Dia from "./ABCDiatypeVariable.ttf";
 
 const Global = createGlobalStyle`
   @font-face {
     font-family: 'Dia';
     src: url(${Dia});
-  }  @font-face {
-    font-family: 'Tomato';
-    src: url(${Tomato});
   }
   * {
     box-sizing: border-box;
