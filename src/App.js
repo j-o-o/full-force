@@ -313,8 +313,9 @@ export default function App() {
           <Container>
             This website uses <a href="https://reactjs.org/">React</a> as
             framework. <br />
-            The code is entirely hosted to GitHub, which makes it very reliable
-            in combination with Vercel as CDN.
+            The code is entirely hosted to{" "}
+            <a href="https://github.com/j-o-o/full-force">GitHub</a>, which
+            makes it very reliable in combination with Vercel as CDN.
             <br />
             It also uses a headless CMS called{" "}
             <a href="https://graphcms.com/">GraphCMS</a>.<br />
