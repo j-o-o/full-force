@@ -31,8 +31,8 @@ const Tree = memo(({ children, name, style, defaultOpen = false }) => {
         style={
           (style,
           isOpen
-            ? { borderBottom: "1px solid #eeeeee" }
-            : { borderBottom: "1px solid #dbdbdb" })
+            ? { borderBottom: "1px solid rgb(180, 180, 180)" }
+            : { borderBottom: "1px solid rgb(200, 200, 200)" })
         }
         onClick={() => setOpen(!isOpen)}
       >

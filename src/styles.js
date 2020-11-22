@@ -21,6 +21,8 @@ const Global = createGlobalStyle`
     font-family: Helvetica, Arial, sans-serif;
     font-family: 'Dia';
     font-variation-settings: 'wght' 400 'itlc' 100;
+    font-feature-settings: "ss03","ss04","ss06","ss07","ss09","ss10","ss11","ss12";
+
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 16px;
@@ -44,25 +46,24 @@ const Global = createGlobalStyle`
 
 const Frame = styled("div")`
   position: relative;
-  padding: 4px 0px;
+  padding: 14px 0px;
   margin: 0px 0;
   text-overflow: ellipsis;
-  overflow: hidden;
+  overflow: visible;
   vertical-align: middle;
 `;
 
 const Title = styled("span")`
   vertical-align: middle;
   cursor: pointer;
-
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgb(180, 180, 180);
 `;
 
 const Content = styled(animated.div)`
   will-change: transform, opacity, height, font-variation-settings;
   ${"" /* margin-left: 6px; */}
   padding: 0px 10px 0px 20px;
-  border-left: 1px solid #eeeeee;
+  border-left: 1px solid rgb(180, 180, 180);
 `;
 
 const Container = styled("div")`
