@@ -14,11 +14,8 @@ const Global = createGlobalStyle`
   html,
   body,
   #root {
-    width: 100%;
-    height: 100%;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
     font-family: 'Dia', Helvetica, Arial, sans-serif;
     font-variation-settings: 'wght' 400 'itlc' 100;
     font-feature-settings: "ss13";
@@ -27,7 +24,6 @@ const Global = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
     font-size: 16px;
     line-height: 20px;
-    
   }
 
   #root {
