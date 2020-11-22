@@ -31,14 +31,15 @@ const Tree = memo(({ children, name, style, defaultOpen = false }) => {
     <Frame>
       <Title
         style={
-          (style,
-          isOpen
-            ? { borderBottom: "1px solid rgb(180, 180, 180)" }
-            : { borderBottom: "1px solid rgb(200, 200, 200)" })
+          style
+          // ,
+          // isOpen
+          //   ? { borderBottom: "1px solid rgb(180, 180, 180)" }
+          //   : { borderBottom: "1px solid rgb(200, 200, 200)" }
         }
         onClick={() => setOpen(!isOpen)}
       >
-        {name}
+        {isOpen ? "" : ""} {name}
       </Title>
       <Content
         style={{

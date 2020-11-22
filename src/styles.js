@@ -43,7 +43,7 @@ const Global = createGlobalStyle`
 
 const Frame = styled("div")`
   position: relative;
-  padding: 14px 0px;
+  padding: 8px 0px;
   margin: 0px 0;
   text-overflow: ellipsis;
   overflow: visible;
@@ -54,14 +54,14 @@ const Frame = styled("div")`
 const Title = styled("span")`
   vertical-align: middle;
   cursor: pointer;
-  border-bottom: 1px solid rgb(180, 180, 180);
+  /* border-bottom: 1px solid rgb(180, 180, 180); */
 `;
 
 const Content = styled(animated.div)`
   will-change: transform, opacity, height, font-variation-settings;
-  ${"" /* margin-left: 6px; */}
+  margin: 6px 0px 0px 6px;
   padding: 0px 10px 0px 20px;
-  border-left: 1px solid rgb(180, 180, 180);
+  border-left: 1px solid rgb(220, 220, 220);
 `;
 
 const Container = styled("div")`
