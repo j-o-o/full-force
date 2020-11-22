@@ -43,7 +43,7 @@ const Global = createGlobalStyle`
 
 const Frame = styled("div")`
   position: relative;
-  padding: 8px 0px;
+  padding: 8px 0px 0px 0px;
   margin: 0px 0;
   text-overflow: ellipsis;
   overflow: visible;
