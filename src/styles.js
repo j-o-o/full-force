@@ -21,7 +21,7 @@ const Global = createGlobalStyle`
     overflow-x: hidden;
     font-family: 'Dia', Helvetica, Arial, sans-serif;
     font-variation-settings: 'wght' 400 'itlc' 100;
-    font-feature-settings: "ss03","ss04","ss06","ss07","ss09","ss10","ss11","ss12";
+    font-feature-settings: "ss13";
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
