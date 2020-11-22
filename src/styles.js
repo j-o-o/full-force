@@ -51,6 +51,7 @@ const Frame = styled("div")`
   margin: 0px 0;
   text-overflow: ellipsis;
   overflow: visible;
+  overflow: hidden;
   vertical-align: middle;
 `;
 

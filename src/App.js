@@ -13,15 +13,17 @@ const Tree = memo(({ children, name, style, defaultOpen = false }) => {
   const previous = usePrevious(isOpen);
 
   const [bind, { height: viewHeight }] = useMeasure();
-  const { height, opacity, transform, fontVariationSettings } = useSpring({
+  const { height, opacity, transform } = useSpring({
     from: {
       height: 0,
       opacity: 0,
+      overflow: "hidden",
       transform: "translateX(90px)",
     },
     to: {
       height: isOpen ? viewHeight : 0,
       opacity: isOpen ? 1 : 0,
+      overflow: isOpen ? "inherit" : "hidden",
       transform: `translateX(${isOpen ? 0 : 90}px)`,
     },
   });
@@ -44,7 +46,7 @@ const Tree = memo(({ children, name, style, defaultOpen = false }) => {
           height: isOpen && previous === isOpen ? "auto" : height,
         }}
       >
-        <a.div style={{ transform, opacity }} {...bind} children={children} />
+        <a.div style={{ transform }} {...bind} children={children} />
       </Content>
     </Frame>
   );
@@ -322,7 +324,7 @@ export default function App() {
           </Container>
         </Tree>
       </Tree>
-      <div style={{ height: "200px" }} />
+      {/* <div style={{ height: "200px" }} /> */}
     </>
   );
 }
