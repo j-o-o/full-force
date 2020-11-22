@@ -23,7 +23,7 @@ const Global = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 24px;
   }
 
   #root {
@@ -43,7 +43,7 @@ const Global = createGlobalStyle`
 
 const Frame = styled("div")`
   position: relative;
-  padding: 8px 0px 0px 0px;
+  padding: 6px 0px 0px 0px;
   margin: 0px 0;
   text-overflow: ellipsis;
   overflow: visible;
