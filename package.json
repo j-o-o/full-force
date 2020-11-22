@@ -1,8 +1,7 @@
 {
-  "name": "new",
+  "name": "full-force",
   "version": "1.0.0",
   "description": "",
-  "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "graphcms-image": "^1.1.0-beta4",
