@@ -1,7 +1,7 @@
 import styled, { createGlobalStyle } from "styled-components";
 import { animated } from "react-spring";
 
-import Dia from "./ABCDiatypeVariable.ttf";
+import Dia from "./ABCDiatype-Regular.ttf";
 
 const Global = createGlobalStyle`
   @font-face {
@@ -17,7 +17,6 @@ const Global = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family: 'Dia', Helvetica, Arial, sans-serif;
-    font-variation-settings: 'wght' 400 'itlc' 100;
     font-feature-settings: "ss13";
 
     -webkit-font-smoothing: antialiased;
