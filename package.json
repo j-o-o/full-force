@@ -13,8 +13,7 @@
     "react-scripts": "4.0.0",
     "react-spring": "8.0.27",
     "resize-observer-polyfill": "1.5.1",
-    "styled-components": "5.2.1",
-    "webfontloader": "^1.6.28"
+    "styled-components": "5.2.1"
   },
   "devDependencies": {},
   "scripts": {
