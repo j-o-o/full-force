@@ -1,7 +1,7 @@
 import styled, { createGlobalStyle } from "styled-components";
 import { animated } from "react-spring";
 
-import Int from "./Inter-Regular-slnt=0.ttf";
+import Int from "./Inter-VariableFont_slnt,wght.ttf";
 const Global = createGlobalStyle`
    @font-face {
     font-family: 'Int';
@@ -17,6 +17,7 @@ const Global = createGlobalStyle`
     padding: 0;
     font-family: 'Int', Helvetica, Arial, sans-serif;
     font-feature-settings: "ss01";
+    font-variation-settings: "slnt" 0, "wght" 400;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
