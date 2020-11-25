@@ -39,7 +39,7 @@ const Tree = memo(({ children, name, style, defaultOpen = false }) => {
         }
         onClick={() => setOpen(!isOpen)}
       >
-        {isOpen ? "" : ""} {name}
+        {isOpen ? "" : "❖"} {name}
       </Title>
       <Content
         style={{
@@ -586,7 +586,8 @@ export default function App() {
             makes it very reliable in combination with Vercel as CDN.
             <br />
             It also uses a headless CMS called{" "}
-            <a href="https://graphcms.com/">GraphCMS</a>.<br />
+            <a href="https://graphcms.com/">GraphCMS</a> and the typeface{" "}
+            <a href="https://rsms.me/inter/">Inter</a> by Rasmus Andersson.
           </Container>
         </Tree>
       </Tree>

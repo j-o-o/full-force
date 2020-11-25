@@ -1,12 +1,11 @@
 import styled, { createGlobalStyle } from "styled-components";
 import { animated } from "react-spring";
 
-import Dia from "./ABCDiatype-Regular.ttf";
-
+import Int from "./Inter-Regular-slnt=0.ttf";
 const Global = createGlobalStyle`
-  @font-face {
-    font-family: 'Dia';
-    src: url(${Dia});
+   @font-face {
+    font-family: 'Int';
+    src: url(${Int});
   }
   * {
     box-sizing: border-box;
@@ -16,8 +15,8 @@ const Global = createGlobalStyle`
   #root {
     margin: 0;
     padding: 0;
-    font-family: 'Dia', Helvetica, Arial, sans-serif;
-    font-feature-settings: "ss13";
+    font-family: 'Int', Helvetica, Arial, sans-serif;
+    font-feature-settings: "ss01";
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
