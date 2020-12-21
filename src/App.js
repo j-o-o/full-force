@@ -39,7 +39,7 @@ const Tree = memo(({ children, name, style, defaultOpen = false }) => {
         }
         onClick={() => setOpen(!isOpen)}
       >
-        {isOpen ? "" : "❖"} {name}
+        {isOpen ? "○" : "●"} {name}
       </Title>
       <Content
         style={{
